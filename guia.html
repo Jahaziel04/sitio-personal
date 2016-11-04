@@ -11,27 +11,29 @@
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
-    <nav>
-      <div class="nav-wrapper white"><a href="/" class="brand-logo">
-          <div class="jflex">
-            <div class="circle--avatar"><img src="/img/avatar.jpg" alt="Jahaziel Ortiz Barrios" class="img-full"></div><span class="nav-name">Jahaziel Ortiz Barrios</span>
-          </div></a><a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="/perfil.html">Perfil</a></li>
-          <li><a href="/faq.html">FAQ</a></li>
-          <li><a href="/blog">Bloq</a></li>
-          <li><a href="/guia.html">Guía</a></li>
-          <li><a href="/contacto.html">Contacto</a></li>
-        </ul>
-        <ul id="mobile-demo" class="side-nav">
-          <li><a href="/perfil.html">Perfil</a></li>
-          <li><a href="/faq.html">FAQ</a></li>
-          <li><a href="/blog">Bloq</a></li>
-          <li><a href="/guia.html">Guía</a></li>
-          <li><a href="/contacto.html">Contacto</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper white"><a href="/" class="brand-logo">
+            <div class="jflex">
+              <div class="circle--avatar"><img src="/img/avatar.jpg" alt="Jahaziel Ortiz Barrios" class="img-full"></div><span class="nav-name">Jahaziel Ortiz Barrios</span>
+            </div></a><a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="/perfil.html">Perfil</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/blog">Bloq</a></li>
+            <li><a href="/guia.html">Guía</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+          </ul>
+          <ul id="mobile-demo" class="side-nav">
+            <li><a href="/perfil.html">Perfil</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/blog">Bloq</a></li>
+            <li><a href="/guia.html">Guía</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <article class="background-azul white-text block">
       <section class="container">
         <div class="row">
@@ -42,141 +44,161 @@
           <div class="col hide-on-small-only m3 l2">
             <div class="pinned white">
               <ul class="section table-of-contents">
-                <li><a href="#multi-page">Multi page</a></li>
-                <li><a href="#one-page">One page</a></li>
-                <li><a href="#precios">Precios</a></li>
+                <!--li-->
+                <!--	a(href="#features") Features-->
+                <li><a href="#multipage">Multi page</a></li>
+                <li><a href="#onepage">One page</a></li>
+                <li><a href="#personalizado">personalizado</a></li>
               </ul>
             </div>
           </div>
         </div>
       </section>
     </article>
-    <article id="multi-page" class="block-guia section scrollspy">
+    <article class="block-guia section">
       <section class="container">
         <div class="row">
-          <div class="col s12">
-            <div class="jflex"><span class="rectangule--azul_1 guia-flex"><i class="icon-stack"></i></span>
-              <h2 class="guia-subtitulo">Multi page</h2>
+          <div class="col s12 m9 l4">
+            <div class="jcard">
+              <p class="jcard-title">Esta es la lista de beneficios que tendrás al contratar cualquier servicio de desarrollo web.</p>
+              <article class="features">
+                <div class="features-item">
+                  <div class="circle--icon-small back-rosa"><i class="material-icons white-text">bubble_chart</i></div>
+                  <div class="features-content">
+                    <p>Propuesta de diseño</p>
+                    <p class="t">Diseño de acuerdo a tu negocio.</p>
+                  </div>
+                </div>
+                <div class="features-item">
+                  <div class="circle--icon-small back-verde"><i class="material-icons white-text">place</i></div>
+                  <div class="features-content">
+                    <p>Google maps</p>
+                    <p class="t">Enseña a tus clientes a como llegar a tu negocio, con un mapa personalizado de tu hubicación.</p>
+                  </div>
+                </div>
+                <div class="features-item">
+                  <div class="circle--icon-small back-rosa"><i class="material-icons white-text">devices_other</i></div>
+                  <div class="features-content">
+                    <p>Responsive design</p>
+                    <p class="t">Todas las páginas adaptables a dispositivos móviles.</p>
+                  </div>
+                </div>
+                <div class="features-item">
+                  <div class="circle--icon-small back-azul"><i class="white-text www">www</i></div>
+                  <div class="features-content relative">
+                    <p>Dominio</p><span class="jtag back-rojo2">Gratis el 1er año</span>
+                    <p class="t"></p>
+                  </div>
+                </div>
+                <div class="features-item">
+                  <div class="circle--icon-small back-verdesito"><i class="material-icons white-text">storage</i></div>
+                  <div class="features-content relative">
+                    <p>Hosting</p><span class="jtag back-rojo2">Gratis el 1er año</span>
+                    <p class="t"></p>
+                  </div>
+                </div>
+                <div class="features-item">
+                  <div class="circle--icon-small back-verde"><i class="material-icons white-text">search</i></div>
+                  <div class="features-content">
+                    <p>Alta en buscadores</p>
+                    <p class="t">Se facilitará la indexación en la red para que los buscadores sepan del contenido de tu web.</p>
+                  </div>
+                </div>
+                <div class="features-item">
+                  <div class="circle--icon-small back-amarillo"><i class="material-icons white-text">language</i></div>
+                  <div class="features-content">
+                    <p>Optmización SEO</p>
+                    <p class="t">Codificación optimizada para competir por mejores puestos en los resultados de busqueda.</p>
+                  </div>
+                </div>
+                <div class="features-item">
+                  <div class="circle--icon-small back-verde"><i class="material-icons white-text">timeline</i></div>
+                  <div class="features-content">
+                    <p>Estadisticas</p>
+                    <p class="t">Sabrás cuantos visitantes hay, como lo hacen, cuando y donde.</p>
+                  </div>
+                </div>
+                <div class="features-item">
+                  <div class="circle--icon-small back-naranja"><i class="material-icons white-text">share</i></div>
+                  <div class="features-content x relative">
+                    <p>Sicial media marketing</p>
+                    <p class="t">Generación de contenido atractivo en tus redes sociales para crear tracción hacia tu sitio web con el fin de dar a conocer de forma más impactante tu marca.</p><span class="jtag back-rojo2">Gratis el 1er mes</span>
+                  </div>
+                </div>
+              </article>
             </div>
           </div>
-        </div>
-        <div class="row relative">
-          <div class="col s12 m6 grey-text text-darken-1">
-            <p class="text-normal">El clásico y más efectivo sitio para tu negocio, el más escalable y de fácil posicionamiento en los buscadores web.</p>
-            <p class="text-normal">Más información detallada, tus clientes no tendrán dudas de como obtener tus servicios y los beneficios que obtendrán de ser tus clientes.</p>
+          <div id="multipage" class="col s12 m9 l5 offset-l1 f-6 scrollspy">
+            <div class="jcard">
+              <h2 class="jcard-title-x">Multi page</h2><span class="jcard-icon circle--small back-rosa"><i class="icon-stack"></i></span><span class="jtag-x back-azul">5 Páginas</span>
+              <p class="jcard-title">Si tienes muchos productos y servicios, será ideal para iniciar tu presencia en la web.</p>
+              <p><span class="circle--bulleted"></span><span>Información detallada de tus productos o servicios</span></p>
+              <p><span class="circle--bulleted"></span><span>Medicion y mejor optimización SEO</span></p>
+              <p class="jcard-price">$5,900<span class="jcard-denomination">MXN/ 3 Pagos</span></p>
+              <table class="table-size">
+                <tbody class="jcard-prices">
+                  <tr>
+                    <td>Firma de contrato</td>
+                    <td class="jcard-price--small">$1,500</td>
+                  </tr>
+                  <tr>
+                    <td>Entrega del diseño</td>
+                    <td class="jcard-price--small">$1,500</td>
+                  </tr>
+                  <tr>
+                    <td>Publicación del proyecto</td>
+                    <td class="jcard-price--small">$2,900</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-          <div class="col s12 m6">
-            <figure class="center movement-fix"><img src="/img/multi-page.png" alt="Multipage" class="img-guide"></figure>
+          <div id="onepage" class="col s12 m9 l5 offset-l1 f-6 scrollspy">
+            <div class="jcard">
+              <h2 id="onepage" class="jcard-title-x scrollspy">One page</h2><span class="jcard-icon circle--small back-rosa"><i class="material-icons">looks_one</i></span><span class="jtag-x back-azul">1 Página</span>
+              <p class="jcard-title">Toda la información disponible en una sola página.</p>
+              <p class="jcard-title">Si eres un profecional que desea mostrar su perfil profecional o si tienes una empresa con pocos servicios, este tipos de sitio será perfecto.</p>
+              <p><span class="circle--bulleted"></span><span>Navegación fluida</span></p>
+              <p><span class="circle--bulleted"></span><span>Dedicada a la conversión de clientes</span></p>
+              <p class="jcard-price">$4,900<span class="jcard-denomination">MXN/ 3 Pagos</span></p>
+              <table class="table-size">
+                <tbody class="jcard-prices">
+                  <tr>
+                    <td>Firma de contrato</td>
+                    <td class="jcard-price--small">$1,000</td>
+                  </tr>
+                  <tr>
+                    <td>Entrega del diseño</td>
+                    <td class="jcard-price--small">$1,000</td>
+                  </tr>
+                  <tr>
+                    <td>Publicación del proyecto</td>
+                    <td class="jcard-price--small">$1,600  </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col s12 m9 grey-text text-darken-1">
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">Diseño</i> -<span>Creado especialmente para tu marca y tipo de negocio.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">5 Páginas</i> -<span>Inicio, servicios, acerca-de, preguntas frecuentes y contacto.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista lista-link">Adaptable a móviles</i> -<span>Optimización para móviles, accesible desde cualquier dispositivo.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">SEO</i> -<span>Alta en buscadores y optimización para motores de busqueda.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">Google-maps</i> -<span>Alta en google-maps visible a los ojos del mundo en los mapas de google.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">Estadisticas</i> -<span>Sabras siempre la cantidad de visitas en tu sitio, la procedencia y más.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">Dominio</i> -<span>Registro de dominio con año gratis.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">Hosting</i> -<span>30GB de almacenamiento por un año.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">Social media marketing</i> -<span>Estrategia de marketing de introducción al mercado y generación de contenido por el primer mes, para llevas trafico a tu web sin costos.</span></p>
+          <div class="col s12 m9 l4 f-7">
+            <div class="jcard">
+              <h2 id="personalizado" class="jcard-title-x scrollspy">Personalizado</h2><span class="jtag-x back-azul">¿? Páginas</span>
+              <p class="jcard-title">Sin limites.</p>
+              <p><span class="circle--bulleted"></span><span>¿Deseas un blog?</span></p>
+              <p><span class="circle--bulleted"></span><span>¿Tienda en linea?</span></p>
+              <p>Llamame o contactame en cualquiera de mis redes sociales que están en la página contacto</p>
+              <table class="table-size-x">
+                <tbody class="jcard-prices">
+                  <tr>
+                    <td><a href="tel:+9241020883" class="waves-effect waves-light btn">Llamar</a></td>
+                    <td><a href="/contacto.html" class="waves-effect waves-light btn pink lighten-2">Contacto</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </section>
     </article>
-    <article id="one-page" class="block-guia guia-dos section scrollspy ">
-      <section class="container">
-        <div class="row">
-          <div class="col s12">
-            <div class="jflex"><span class="rectangule--azul_2 guia-flex"><i class="icon-looks_1"></i></span>
-              <h2 class="guia-subtitulo-x">One page</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 m9 grey-text text-darken-1">
-            <p class="text-normal">Todo en una sola página, el usuario no irá a ninguna otra parte a buscar más información, la información más relevante estará al alcance del usuario.</p>
-            <p class="text-normal">Ideal para profecionales que quieren mostrar su perfil profecional o negocios con pocos productos o servicios.</p>
-          </div>
-          <div class="col s12 m8 grey-text text-darken-1">
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">Diseño</i><span class="hide-on-small-only">- Creado especialmente para tu marca y tipo de negocio.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">1 Página</i><span class="hide-on-small-only">- Contendrá el contenido más relevante de tu negocio.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">Adaptable a móviles</i><span class="hide-on-small-only">- Optimización para mǘiles, accesible desde cualquier dispositivo.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">SEO</i><span class="hide-on-small-only">- Alta en buscadores y optimización para motores de busqueda.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">Google-maps</i><span class="hide-on-small-only">- Alta en google-maps visible a los ojos del mundo en los mapas de google.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">Estadisticas</i><span class="hide-on-small-only">- Sabras siempre la cantidad de visitas en tu sitio, la procedencia y más.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">Dominio</i><span class="hide-on-small-only">- Registro de dominio con año gratis.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">Hosting</i><span class="hide-on-small-only">- 30GB de almacenamiento por un año.</span></p>
-            <p><i class="icon-checkmark azul-text"></i> <i class="lista">Social media marketing</i><span class="hide-on-small-only">- Estrategia de marketing de introducción al mercado y generación de contenido por el primer mes, para llevas trafico a tu web sin costos.</span></p>
-          </div>
-        </div>
-      </section>
-    </article>
-    <article id="precios" class="block-guia guia-tres section scrollspy">
-      <section class="container">
-        <div class="row">
-          <div class="col s12 m10 l5">
-            <h2 class="guia-titulo">Empieza a formar parte de internet.</h2><span class="rectangule--azul_1 guia-flex"><i class="icon-stack"></i></span><span class="rectangule--azul_2 guia-flex"><i class="icon-looks_1"></i></span>
-            <p class="text-normal grey-text text-darken-1">Contactame, no todos los proyectos web son iguales.</p>
-            <p class="text-normal grey-text text-darken-1">Hablemos sobre lo que tienes en mente, tal vez tu sitio requieres menos o incluso más paginas.</p>
-          </div>
-        </div>
-      </section>
-      <article class="container">
-        <section class="row">
-          <div class="col s6 m4 l2 grey-text text-darken-1">
-            <div class="guia-head--simple">
-              <h5 class="guia-text">3 pagos</h5>
-            </div><span class="flex">
-              <p class="guia-text">Firma de contrato</p></span><span class="flex">
-              <p class="guia-text">Diseño final</p></span><span class="flex">
-              <p class="guia-text">Publicación del proyecto</p></span>
-          </div>
-          <div class="col s6 m5 l2">
-            <div class="guia-head--azul">
-              <h5 class="guia-titulo">Multi page</h5>
-            </div><span class="flex fila">
-              <p class="center">$ 1,500.00</p></span><span class="flex fila">
-              <p class="center">$ 1,500.00</p></span><span class="flex fila">
-              <p class="center">$ 2,000.00</p></span>
-            <div class="guia-head--azulX">
-              <h5 class="guia-titulo">$5,000</h5>
-            </div>
-          </div>
-          <div class="col s6 m4 l2 grey-text text-darken-1 hide-on-large-only">
-            <div class="guia-head--simple guia-text">
-              <h5>3 pagos</h5>
-            </div><span class="flex ">
-              <p class="guia-text">Firma de contrato</p></span><span class="flex ">
-              <p class="guia-text">Diseño final</p></span><span class="flex ">
-              <p class="guia-text">Publicación del proyecto</p></span>
-          </div>
-          <div class="col s6 m5 l2">
-            <div class="guia-head--azul2">
-              <h5 class="guia-titulo">One page</h5>
-            </div><span class="flex fila">
-              <p class="center">$ 1,000.00</p></span><span class="flex fila">
-              <p class="center">$ 1,000.00</p></span><span class="flex fila">
-              <p class="center">$ 1,500.00</p></span>
-            <div class="guia-head--azul2X">
-              <h5 class="guia-titulo">$3,500</h5>
-            </div>
-          </div>
-        </section>
-        <section class="row center"><a href="/contacto.html" class="waves-effect waves-light btn">Contacto</a></section>
-      </article>
-    </article>
-    <div class="subNav-container">
-      <div class="row f-1">
-        <div class="background-azul2 col s6"><a href="/perfil.html" class="button-link">
-            <div class="box-link right-align"><span class="inline grey-text text-lighten-3">Ve a
-                <p class="inline">Perfil</p></span></div></a></div>
-        <div class="background-azul col s6"><a href="/faq.html" class="button-link">
-            <div class="box-link left-align"><span class="inline grey-text text-lighten-3">Ve a</span>
-              <p class="inline">Preguntas frecuentes</p>
-            </div></a></div>
-      </div>
-    </div>
     <footer class="back-gris_1 f-2 white-text">
       <div class="row f-1">
         <div class="col s12 m8 l8 offset-l1">

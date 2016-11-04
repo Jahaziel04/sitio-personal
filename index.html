@@ -11,27 +11,29 @@
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
-    <nav>
-      <div class="nav-wrapper white"><a href="/" class="brand-logo">
-          <div class="jflex">
-            <div class="circle--avatar"><img src="/img/avatar.jpg" alt="Jahaziel Ortiz Barrios" class="img-full"></div><span class="nav-name">Jahaziel Ortiz Barrios</span>
-          </div></a><a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="/perfil.html">Perfil</a></li>
-          <li><a href="/faq.html">FAQ</a></li>
-          <li><a href="/blog">Bloq</a></li>
-          <li><a href="/guia.html">Guía</a></li>
-          <li><a href="/contacto.html">Contacto</a></li>
-        </ul>
-        <ul id="mobile-demo" class="side-nav">
-          <li><a href="/perfil.html">Perfil</a></li>
-          <li><a href="/faq.html">FAQ</a></li>
-          <li><a href="/blog">Bloq</a></li>
-          <li><a href="/guia.html">Guía</a></li>
-          <li><a href="/contacto.html">Contacto</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper white"><a href="/" class="brand-logo">
+            <div class="jflex">
+              <div class="circle--avatar"><img src="/img/avatar.jpg" alt="Jahaziel Ortiz Barrios" class="img-full"></div><span class="nav-name">Jahaziel Ortiz Barrios</span>
+            </div></a><a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="/perfil.html">Perfil</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/blog">Bloq</a></li>
+            <li><a href="/guia.html">Guía</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+          </ul>
+          <ul id="mobile-demo" class="side-nav">
+            <li><a href="/perfil.html">Perfil</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/blog">Bloq</a></li>
+            <li><a href="/guia.html">Guía</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <article class="background-azul white-text section-one">
       <section class="container">
         <div class="row">
@@ -102,102 +104,83 @@
         </div>
       </section>
     </article>
-    <section class="section-three">
+    <section class="section-three relative scrollspy"><a href="#section-three" class="circle-button waves-effect waves-light white light-blue-text text-lighten-1 center-absolute"><i class="material-icons md-36">&#xE313</i></a>
       <article class="container">
         <div class="row">
-          <div class="col s12 l6 push-l6 line-style">
-            <h2>Obten los beneficios de un sitio web</h2>
-            <p class="st2">Con un sitio desarrollado pensando en tus clientes, para darles una experiencia de usuario positiva.</p>
-            <p class="st2">Desde el papel está pensando en la escalabilidad de tu negocio.</p>
+          <div class="col s12 m6 m7 l5 offset-l1 f-5">
+            <h2 class="s1t1">Obten los beneficios de un sitio web</h2>
+            <p id="section-three" class="st2 scrollspy">Con un sitio desarrollado pensando en tus clientes, en la satisfacción de que quien llegue a tu sitio encontrará la información que necesita para poder tomar una desición firme de ser tus nuevo clientes.</p>
+            <p class="st2">Un sitio que desde el papel este diseñado para adaptarse	a cualquier disposivo móvil, y cumpliendo las reglas que los navegadores desean para indexar tu sitio en la web.</p>
           </div>
-          <div class="col s12 l6 pull-l6">
-            <figure><img src="/img/in-construction.png" alt="sitio web en construcción" data-caption="Un sitio se planea." class="img-full"></figure>
+        </div>
+      </article>
+    </section>
+    <section class="section-four">
+      <article class="container">
+        <div class="row">
+          <div class="col s12 m6 l5 offset-l1">
+            <article class="card big">
+              <div class="card-image waves-effect waves-block waves-light"><img alt="Responsive-design" src="img/responsive-design.png" class="activator"></div>
+              <div class="card-content"><span class="card-title activator">Capaz de adaptarse a cualquier dispositivo móvil con:<i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><span>Responsive design</span><a href=" http://www.jahaziel04.com/blog/diseno/responsive-design/" target="_blank" class="link-right">Leer más</a></div>
+              <div class="card-reveal"><span class="card-title">Responsive design<i class="material-icons right">close</i></span>
+                <p>Es una de las alternativas de diseño y desarrollo web para garantizar que las páginas de un sitio sean capaces de adaptar su apariencia a cualquier dispositivo móvil. Esta filosofía garantiza la correcta visualización para mejorar la experiencia de usuario.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col s12 m6 l5">
+            <article class="card big">
+              <div class="card-image waves-effect waves-block waves-light"><img alt="SEO" src="img/seo.png" class="activator"></div>
+              <div class="card-content"><span class="card-title activator">Optimización para motores de busqueda:<i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><span>SEO</span><a href="/blog/seo/que-es-seo/" target="_blank">Leer más</a></div>
+              <div class="card-reveal"><span class="card-title">SEO<i class="material-icons right">close</i></span>
+                <p>Es un proceso técnico, que organiza la estructura y el contenido de las páginas de un sitio web, para mejorar la visibilidad en los buscadores, mejorando el posicionamiento natural en las búsquedas con términos o palabras relacionadas con tu negocio.</p>
+              </div>
+            </article>
           </div>
         </div>
         <div class="row">
-          <div class="col s12 m6">
-            <div class="card-container">
-              <p class="s3s1">Sitio optimizado para dispositivos móviles.</p>
-              <article class="card big sin-boxshadow">
-                <div class="card-image waves-effect waves-block waves-light"><img alt="Responsive-design" src="img/responsive-design.png" class="activator"></div>
-                <div class="card-content"><span class="card-title activator">Responsive design<i class="material-icons right">more_vert</i></span>
-                  <p><a href=" http://www.jahaziel04.com/blog/diseno/responsive-design/" target="_blank">Leer más</a></p>
-                </div>
-                <div class="card-reveal"><span class="card-title">Responsive design<i class="material-icons right">close</i></span>
-                  <p>Es una de las alternativas de diseño y desarrollo web para garantizar que las páginas de un sitio sean capaces de adaptar su apariencia a cualquier dispositivo móvil. Esta filosofía garantiza la correcta visualización para mejorar la experiencia de usuario.</p>
-                </div>
-              </article>
-            </div>
+          <div class="col s12 m6 l5 offset-l1">
+            <article class="card big">
+              <div class="card-image waves-effect waves-block waves-light"><img alt="Hosting" src="img/hosting.png" class="activator"></div>
+              <div class="card-content"><span class="card-title activator">Hospedaje para tu sitio web completo<i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><span>Web hosting</span><a href="https://es.wikipedia.org/wiki/Alojamiento_web" target="_blank">Leer más</a></div>
+              <div class="card-reveal"><span class="card-title">Web hosting<i class="material-icons right">close</i></span>
+                <p>Es una analogía de hospedaje o alojamiento en hoteles, porque es donde vivirá tu sitio, ahí se guardará el código, imágenes, vídeos, y todo de lo que esté compuesto. Tu no tendrás que ocuparte del hosting, pero es bueno saber que sepas que es uno de los servicios que garantizaran la permanencia de tu sitio en Internet.</p>
+              </div>
+            </article>
           </div>
-          <div class="col s12 m6">
-            <div class="card-container">
-              <p class="s3s1">Mejor posicionamiento orgánico en buscadores.</p>
-              <article class="card big sin-boxshadow">
-                <div class="card-image waves-effect waves-block waves-light"><img alt="SEO" src="img/seo.png" class="activator"></div>
-                <div class="card-content"><span class="card-title activator">SEO<i class="material-icons right">more_vert</i></span>
-                  <p><a href="/blog/seo/que-es-seo/" target="_blank">Leer más</a></p>
-                </div>
-                <div class="card-reveal"><span class="card-title">SEO<i class="material-icons right">close</i></span>
-                  <p>Es un proceso técnico, que organiza la estructura y el contenido de las páginas de un sitio web, para mejorar la visibilidad en los buscadores, mejorando el posicionamiento natural en las búsquedas con términos o palabras relacionadas con tu negocio.</p>
-                </div>
-              </article>
-            </div>
+          <div class="col s12 m6 l5">
+            <article class="card big">
+              <div class="card-image waves-effect waves-block waves-light"><img alt="Dominio" src="img/domain.png" class="activator"></div>
+              <div class="card-content"><span class="card-title activator">El nombre de tu empresa en tu nombre de dominio<i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><span>Domain name</span><a href="https://es.wikipedia.org/wiki/Dominio_de_Internet" target="_blank">Leer más</a></div>
+              <div class="card-reveal"><span class="card-title">Nombre de dominio<i class="material-icons right">close</i></span>
+                <p>"http://jahaziel04.com": esto es un nombre de dominio, no encontraras otro igual, es la dirección del sitio. Existen dominios gratuitos, pero usarlos refleja poco profesionalismo y seriedad a tu negocio. Piensa en uno que represente o a tu marca, en tu publicidad no debe faltar tu nombre de dominio.</p>
+              </div>
+            </article>
           </div>
-          <div class="col s12 m6">
-            <div class="card-container">
-              <p class="s3s1">El hosting apropiado para tu sitio por un año.</p>
-              <article class="card big sin-boxshadow">
-                <div class="card-image waves-effect waves-block waves-light"><img alt="Hosting" src="img/hosting.png" class="activator"></div>
-                <div class="card-content"><span class="card-title activator">Web hosting<i class="material-icons right">more_vert</i></span>
-                  <p><a href="https://es.wikipedia.org/wiki/Alojamiento_web" target="_blank">Leer más</a></p>
-                </div>
-                <div class="card-reveal"><span class="card-title">Web hosting<i class="material-icons right">close</i></span>
-                  <p>Es una analogía de hospedaje o alojamiento en hoteles, porque es donde vivirá tu sitio, ahí se guardará el código, imágenes, vídeos, y todo de lo que esté compuesto. Tu no tendrás que ocuparte del hosting, pero es bueno saber que sepas que es uno de los servicios que garantizaran la permanencia de tu sitio en Internet.</p>
-                </div>
-              </article>
-            </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6 l5 offset-l1">
+            <article class="card big">
+              <div class="card-image waves-effect waves-block waves-light"><img alt="Markting" src="img/marketing.png" class="activator"></div>
+              <div class="card-content"><span class="card-title activator">Dile a los medios sociales que existes.<i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><span>Social media marketing</span><a href="https://es.wikipedia.org/wiki/Social_media_marketing">Leer más</a></div>
+              <div class="card-reveal"><span class="card-title">Social media marketing y estrategia digital<i class="material-icons right">close</i></span>
+                <p>Seguro tienes una cuenta en Twitter, Facebook, Instagram, etc. Estos medios se vuelven muy importantes si se genera contenido atractivo y de utilidad para tus clientes, hace que exista un continuo foco hacia la marca, que aliente al continuo consumo y propague confianza a futuros usuarios.</p>
+              </div>
+            </article>
           </div>
-          <div class="col s12 m6">
-            <div class="card-container">
-              <p class="s3s1">Tu propio nombre de dominio gratis por un año.</p>
-              <article class="card big sin-boxshadow">
-                <div class="card-image waves-effect waves-block waves-light"><img alt="Dominio" src="img/domain.png" class="activator"></div>
-                <div class="card-content"><span class="card-title activator">Nombre de dominio<i class="material-icons right">more_vert</i></span>
-                  <p><a href="https://es.wikipedia.org/wiki/Dominio_de_Internet" target="_blank">Leer más</a></p>
-                </div>
-                <div class="card-reveal"><span class="card-title">Nombre de dominio<i class="material-icons right">close</i></span>
-                  <p>"http://jahaziel04.com": esto es un nombre de dominio, no encontraras otro igual, es la dirección del sitio. Existen dominios gratuitos, pero usarlos refleja poco profesionalismo y seriedad a tu negocio. Piensa en uno que represente o a tu marca, en tu publicidad no debe faltar tu nombre de dominio.</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="col s12 m6">
-            <div class="card-container">
-              <p class="s3s1">Social media marketing y estrategia digital por un mes.</p>
-              <article class="card big sin-boxshadow">
-                <div class="card-image waves-effect waves-block waves-light"><img alt="Markting" src="img/marketing.png" class="activator"></div>
-                <div class="card-content"><span class="card-title activator">Nombre de dominio<i class="material-icons right">more_vert</i></span>
-                  <p><a href="https://es.wikipedia.org/wiki/Social_media_marketing">Leer más</a></p>
-                </div>
-                <div class="card-reveal"><span class="card-title">Social media marketing y estrategia digital<i class="material-icons right">close</i></span>
-                  <p>Seguro tienes una cuenta en Twitter, Facebook, Instagram, etc. Estos medios se vuelven muy importantes si se genera contenido atractivo y de utilidad para tus clientes, hace que exista un continuo foco hacia la marca, que aliente al continuo consumo y propague confianza a futuros usuarios.</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="col s12 m6">
-            <div class="card-container">
-              <p class="s3s1">Gestion y optimización de herramientas de Google.</p>
-              <article class="card big sin-boxshadow">
-                <div class="card-image waves-effect waves-block waves-light"><img alt="Google tools" src="img/google-tools.png" class="activator"></div>
-                <div class="card-content"><span class="card-title activator">Nombre de dominio<i class="material-icons right">more_vert</i></span>
-                  <p><a href="https://es.wikipedia.org/wiki/Google_Webmaster_Tools">Leer más</a></p>
-                </div>
-                <div class="card-reveal"><span class="card-title">Gestion y optimización de herramientas de Google.<i class="material-icons right">close</i></span>
-                  <p>Google nos brinda servicios para potenciar la marca y nos permite ser parte de su ecosistema de mapas, su buscador, red social (google-plus) y la habilidad de poder medir el tráfico en nuestro sitio, mostrándonos métricas que te ayudaran a controlar el negocio, para saber cuánto estas o no creciendo.</p>
-                </div>
-              </article>
-            </div>
+          <div class="col s12 m6 l5">
+            <article class="card big">
+              <div class="card-image waves-effect waves-block waves-light"><img alt="Google tools" src="img/google-tools.png" class="activator"></div>
+              <div class="card-content"><span class="card-title activator">Uso de herramientas y servicios de google.<i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><span>Google tools</span><a href="https://es.wikipedia.org/wiki/Google_Webmaster_Tools">Leer más</a></div>
+              <div class="card-reveal"><span class="card-title">Gestion y optimización de herramientas de Google.<i class="material-icons right">close</i></span>
+                <p>Google nos brinda servicios para potenciar la marca y nos permite ser parte de su ecosistema de mapas, su buscador, red social (google-plus) y la habilidad de poder medir el tráfico en nuestro sitio, mostrándonos métricas que te ayudaran a controlar el negocio, para saber cuánto estas o no creciendo.</p>
+              </div>
+            </article>
           </div>
         </div>
       </article>
